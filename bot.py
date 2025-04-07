@@ -7,12 +7,8 @@ import config
 
 bot = telebot.TeleBot(config.token)
 msg = ''
-chanel_link = '-1001632221923'
+chanel_link = 'chanel_link'
 
-
-# -1001726421975 ovsyanka bot
-# -1001632221923
-# https://api.telegram.org/bot5526701497:AAFpjQniIHnIxKNQRvFscsQBX3rtEzeQI6g/sendMessage?chat_id=@+_38_b2-70LY4MmJi&text=test
 scan = scaner.ArbiScaner()
 
 def markup_inline():
